@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 Hello, I'm Hamza Sahsah, a software engineer and graduate of the International Academy of Civil Aviation. My expertise spans web development, mobile app development, and game development. I am well-versed in ERP systems like Odoo, showcasing a deep understanding of business processes and workflow optimization. Within web development, I focus on both front-end and back-end technologies, and in mobile and game development, I combine technical skills with creative flair. As a software engineer, my approach to problem-solving and project management is guided by a philosophy that emphasizes efficiency and innovation. Throughout my journey, I've undertaken diverse projects, and I find fulfillment in the dynamic and ever-evolving nature of technology. Sharing experiences, insights, and advice for fellow software engineers is something I value, and I look forward to further discussions about the exciting facets of our field.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,22 +11,39 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Knight ver 0.0.6",
+        "startDate": "2022",
+        "description": "A 2d Game  prototype of a Knight game ",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/knight/1.png",
+          "images/knight/2.png"
+         
         ],
-        "url": "",
+        "url": "https://hamzaxsahsah.itch.io/knight-ver-006",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-godot-plain",
+            "name": "Godot"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-gdscript-plain",
+            "name": "GdScript"
+          }
+        ]
+      },
+      {
+        "title": "Crazy RUN",
+        "startDate": "2023",
+        "description": "Following the codng tutorial of Unity i acheive making this game ",
+        "images": [
+          "images/crazyrun/1.png",
+          "images/crazyrun/2.png"
+        ],
+        "url": "https://hamzaxsahsah.itch.io/crazy-run",
+        "technologies": [
+          {
+            "class": "devicon-unity-original",
+            "name": "Unity"
           },
           {
             "class": "devicon-csharp-plain",
@@ -35,83 +52,119 @@
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "A-Frame VR",
+        "startDate": "2021",
+        "description": "I made a VR sumilation for the A-frame framework",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/VR/1.png",
+          "images/VR/2.png"
         ],
-        "url": "https://github.com",
+        "url": "VR/index.html",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-html5-plain",
+            "name": "html"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
           },
           {
             "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "name": "javascript"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Web Scraping Football leagues",
+        "startDate": "2022",
+        "description": "I made a Python script to Scrap the leaderboard of sum leaguess",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/documents/1.png"
+         
         ],
-        "url": "https://github.com",
+        "url": "doc/webscrap.pdf",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Lua pong Game 2D",
+        "startDate": "2022",
+        "description": "I made a 2d game using LOVE frame work in lua ",
+        "images": [
+          "images/documents/2.png"
+         
+        ],
+        "url": "doc/ponglua.pdf",
+        "technologies": [
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-lua-plain",
+            "name": "Lua"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Karizma",
+        "title": "Full Stack Python Developer",
+        "years": "11.2023 - Present",
         "mainTech": [
-          "Angular 8/9/10"
+          "Odoo",
+          "Django",
+          "Flask"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Python",
+          "XML",
+          "Q-web",
+          "HTML",
+          "CSS"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Capgemini",
+        "title": "Full Stack Developer",
+        "years": "03.2023 - 09.2023",
         "mainTech": [
-          "Angular 7/8"
+          "Angular",
+          ".NET",
+          "Drupal"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "TypeScript",
+          "C#"
+        ]
+      },
+      {
+        "company": "Temasa",
+        "title": "Technical Intern - IT Department",
+        "years": "Summer 2022",
+        "mainTech": [
+          "Django"
+        ],
+        "technologies": [
+          "Python",
+          "HTML",
+          "CSS",
+          "Javascript"
+        ]
+      },
+      {
+        "company": "Pachalik",
+        "title": "Technical Intern - IT Department",
+        "years": "Summer 2021",
+        "mainTech": [
+          "Node.js"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Javascript"
         ]
       }
     ]

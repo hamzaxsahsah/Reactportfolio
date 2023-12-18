@@ -1,20 +1,20 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Hamza SAHSAH",
+      "titles": [ "Software Engineer","Full-Stack Developer", "Mobile App Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/hamzaxsahsah",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/hamza-sahsah-254b241b9/",
+          "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "me.jpg"
     },
     "skills": {
       "icons": [
@@ -61,6 +61,22 @@
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
+          "level": "60"
+        },
+        {
+          "name": "Android",
+          "class": "devicon-android-plain",
+          "level": "60"
+        },
+        {
+          "name": "Flutter",
+          "class": "devicon-flutter-plain",
+          "level": "60"
+        }
+        ,
+        {
+          "name": "Odoo",
+          "class": "devicon-python-plain",
           "level": "60"
         }
       ]
