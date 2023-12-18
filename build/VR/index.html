@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script>
+      AFRAME.registerComponent('handle-events1', {
+        init: function () {
+          var el = this.el;
+          var clicked = false ;  // <a-box>
+          el.addEventListener('click', function () {
+            if(!clicked){
+              el.setAttribute('scale', { y: 10, });
+               clicked = true ;
+            }
+            else{
+              el.setAttribute('scale', { y: 1, });
+              clicked = false ;
+            }
+          });
+        }
+      });
+      AFRAME.registerComponent('handle-events2', {
+        init: function () {
+          var el = this.el;  // <a-box>
+            var z= 10;
+          el.addEventListener('click', function () {
+            el.setAttribute('rotation', { y : z });
+            z=z+10;
+          });
+        }
+      });
+      AFRAME.registerComponent('handle-events3', {
+        init: function () {
+          var el = this.el; // <a-box>
+            var clicked = false ;  // <a-box>
+              el.addEventListener('click', function () {
+                if(!clicked){
+                  el.setAttribute('position', { z: 2, });
+                   clicked = true ;
+                }
+                else{
+                  el.setAttribute('position', { z: 0, });
+                  clicked = false ;
+                }
+              });
+            }
+        }
+      );
+      AFRAME.registerComponent('handle-events4', {
+        init: function () {
+          var el = this.el; // <a-box>
+            var clicked = false ;  // <a-box>
+              el.addEventListener('click', function () {
+                if(!clicked){
+                  el.setAttribute('scale', { z: 10, });
+                   clicked = true ;
+                }
+                else{
+                  el.setAttribute('scale', { z: 0, });
+                  clicked = false ;
+                }
+              });
+            }
+        }
+      );
+    </script>
+  </head>
+  <body>
+    <a-scene>
+      <a-box position="-1 0.5 -3" color="#61A4BC" handle-events1></a-box>
+      <a-box position="-3 0.5 -3" color="#F7E2E2" handle-events2></a-box>
+      <a-box position="1 0.5 -3" color="#5B7DB1C" handle-events3></a-box>
+      <a-box position="3 0.5 -3" color="#1A132F" handle-events4></a-box>
+      <a-sky  src="./back.jpg"></a-sky>
+      <a-camera mouse-cursor><a-cursor></a-cursor></a-camera>
+      
+    </a-scene>
+  </body>
+</html>

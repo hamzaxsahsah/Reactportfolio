@@ -1,0 +1,171 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 Hello, I'm Hamza Sahsah, a software engineer and graduate of the International Academy of Civil Aviation. My expertise spans web development, mobile app development, and game development. I am well-versed in ERP systems like Odoo, showcasing a deep understanding of business processes and workflow optimization. Within web development, I focus on both front-end and back-end technologies, and in mobile and game development, I combine technical skills with creative flair. As a software engineer, my approach to problem-solving and project management is guided by a philosophy that emphasizes efficiency and innovation. Throughout my journey, I've undertaken diverse projects, and I find fulfillment in the dynamic and ever-evolving nature of technology. Sharing experiences, insights, and advice for fellow software engineers is something I value, and I look forward to further discussions about the exciting facets of our field.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Knight ver 0.0.6",
+        "startDate": "2022",
+        "description": "A 2d Game  prototype of a Knight game ",
+        "images": [
+          "images/knight/1.png",
+          "images/knight/2.png"
+         
+        ],
+        "url": "https://hamzaxsahsah.itch.io/knight-ver-006",
+        "technologies": [
+          {
+            "class": "devicon-godot-plain",
+            "name": "Godot"
+          },
+          {
+            "class": "devicon-gdscript-plain",
+            "name": "GdScript"
+          }
+        ]
+      },
+      {
+        "title": "Crazy RUN",
+        "startDate": "2023",
+        "description": "Following the codng tutorial of Unity i acheive making this game ",
+        "images": [
+          "images/crazyrun/1.png",
+          "images/crazyrun/2.png"
+        ],
+        "url": "https://hamzaxsahsah.itch.io/crazy-run",
+        "technologies": [
+          {
+            "class": "devicon-unity-original",
+            "name": "Unity"
+          },
+          {
+            "class": "devicon-csharp-plain",
+            "name": "C#"
+          }
+        ]
+      },
+      {
+        "title": "A-Frame VR",
+        "startDate": "2021",
+        "description": "I made a VR sumilation for the A-frame framework",
+        "images": [
+          "images/VR/1.png",
+          "images/VR/2.png"
+        ],
+        "url": "VR/index.html",
+        "technologies": [
+          {
+            "class": "devicon-html5-plain",
+            "name": "html"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "javascript"
+          }
+        ]
+      },
+      {
+        "title": "Web Scraping Football leagues",
+        "startDate": "2022",
+        "description": "I made a Python script to Scrap the leaderboard of sum leaguess",
+        "images": [
+          "images/documents/1.png"
+         
+        ],
+        "url": "doc/webscrap.pdf",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Lua pong Game 2D",
+        "startDate": "2022",
+        "description": "I made a 2d game using LOVE frame work in lua ",
+        "images": [
+          "images/documents/2.png"
+         
+        ],
+        "url": "doc/ponglua.pdf",
+        "technologies": [
+          {
+            "class": "devicon-lua-plain",
+            "name": "Lua"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "Karizma",
+        "title": "Full Stack Python Developer",
+        "years": "11.2023 - Present",
+        "mainTech": [
+          "Odoo",
+          "Django",
+          "Flask"
+        ],
+        "technologies": [
+          "Python",
+          "XML",
+          "Q-web",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "company": "Capgemini",
+        "title": "Full Stack Developer",
+        "years": "03.2023 - 09.2023",
+        "mainTech": [
+          "Angular",
+          ".NET",
+          "Drupal"
+        ],
+        "technologies": [
+          "TypeScript",
+          "C#"
+        ]
+      },
+      {
+        "company": "Temasa",
+        "title": "Technical Intern - IT Department",
+        "years": "Summer 2022",
+        "mainTech": [
+          "Django"
+        ],
+        "technologies": [
+          "Python",
+          "HTML",
+          "CSS",
+          "Javascript"
+        ]
+      },
+      {
+        "company": "Pachalik",
+        "title": "Technical Intern - IT Department",
+        "years": "Summer 2021",
+        "mainTech": [
+          "Node.js"
+        ],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Javascript"
+        ]
+      }
+    ]
+  }
