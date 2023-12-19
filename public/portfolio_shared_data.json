@@ -1,84 +1,126 @@
 {
-    "basic_info": {
-      "name": "Hamza SAHSAH",
-      "titles": [ "Software Engineer","Full-Stack Developer", "Mobile App Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/hamzaxsahsah",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/hamza-sahsah-254b241b9/",
-          "class": "fab fa-linkedin"
-        }
-      ],
-      "image": "me.jpg"
-    },
-    "skills": {
-      "icons": [
-        {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        },
-        {
-          "name": "Android",
-          "class": "devicon-android-plain",
-          "level": "60"
-        },
-        {
-          "name": "Flutter",
-          "class": "devicon-flutter-plain",
-          "level": "60"
-        }
-        ,
-        {
-          "name": "Odoo",
-          "class": "devicon-python-plain",
-          "level": "60"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Hamza SAHSAH",
+    "titles": [
+      "Software Engineer",
+      "Full-Stack Developer",
+      "Mobile App Developer"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/hamzaxsahsah",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/hamza-sahsah-254b241b9/",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "me.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+     
+      
+     
+      {
+        "name": "TypeScript",
+        "class": "devicon-typescript-plain",
+        "level": "60"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "C#",
+        "class": "devicon-csharp-plain",
+        "level": "65"
+      },
+      {
+        "name": "Python",
+        "class": "devicon-python-plain",
+        "level": "80"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "25"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      },
+      
+      {
+        "name": "MySql",
+        "class": "devicon-mysql-plain",
+        "level": "30"
+      },
+      {
+        "name": "PostgreSQL",
+        "class": "devicon-postgresql-plain",
+        "level": "45"
+      },
+      {
+        "name": "Android",
+        "class": "devicon-android-plain",
+        "level": "30"
+      },
+      {
+        "name": "Flutter",
+        "class": "devicon-flutter-plain",
+        "level": "30"
+      },
+      {
+        "name": "Ionic",
+        "class": "devicon-ionic-original",
+        "level": "30"
+      },
+      {
+        "name": "Nodejs",
+        "class": "devicon-nodejs-plain",
+        "level": "80"
+      },
+      {
+        "name": "Djano",
+        "class": "devicon-django-plain",
+        "level": "80"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "40"
+      },
+      {
+        "name": "Angular",
+        "class": "devicon-angularjs-plain",
+        "level": "80"
+      },
+      {
+        "name": "Unity",
+        "class": "devicon-unity-original",
+        "level": "40"
+      },
+      {
+        "name": "Godot",
+        "class": "devicon-godot-plain",
+        "level": "40"
+      }
+    ]
   }
+}
