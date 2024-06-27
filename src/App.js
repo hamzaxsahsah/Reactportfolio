@@ -7,6 +7,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import Prize from "./components/Prizes";
 import { useRef } from 'react';
 class App extends Component {
 
@@ -148,6 +149,8 @@ class App extends Component {
           resumeExperience={this.state.resumeData.experience}
           resumeBasicInfo={this.state.resumeData.basic_info}
         />
+        <Prize resumeExperience={this.state.resumeData.Prizes}
+          resumeBasicInfo={this.state.resumeData.basic_info} />
         <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
       </div >
     );

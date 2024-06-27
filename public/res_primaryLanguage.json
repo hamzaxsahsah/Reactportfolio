@@ -6,7 +6,8 @@
         "about": "About me",
         "projects": "Projects",
         "skills": "Skills",
-        "experience": "Experience"
+        "experience": "Experience",
+        "prizes": "Prizes"
       }
     },
     "projects": [
@@ -106,6 +107,54 @@
             "name": "Lua"
           }
         ]
+      },
+      {
+        "title": "YouTube Video Mass Downloader",
+        "startDate": "2024",
+        "description": "I made a Youtube videos Massdowloader ",
+        "images": [
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_4N37TIgWC_QLpspNwGddZH8DhzljeYMFnA&s"
+         
+        ],
+        "url": "https://github.com/hamzaxsahsah/MassYoutubeDownloader",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
+      },
+      {
+        "title": "Golang Local Blockchain",
+        "startDate": "2024",
+        "description": "I made a local blockchain Service ",
+        "images": [
+          "https://www.chainalysis.com/wp-content/uploads/2022/02/bloggraphic-blockchains-01-1-1500x818.png"
+         
+        ],
+        "url": "https://github.com/hamzaxsahsah/Golangblockchain",
+        "technologies": [
+          {
+            "class": "devicon-go-plain",
+            "name": "Golang"
+          }
+        ]
+      },
+      {
+        "title": "Odoo I18N translator app with @Mohamed-Moumni",
+        "startDate": "2024",
+        "description": "Odoo i18n files translator ",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Odoo_logo.svg/2560px-Odoo_logo.svg.png"
+         
+        ],
+        "url": "http://hamzasahsah.pythonanywhere.com/",
+        "technologies": [
+          {
+            "class": "devicon-python-plain",
+            "name": "Python"
+          }
+        ]
       }
     ],
     "experience": [
@@ -167,5 +216,30 @@
           "Javascript"
         ]
       }
+    ],
+    "Prizes": [
+      {
+        "company": "Africathon",
+        "title": "1st place",
+        "years": "2022",
+        "mainTech": [
+          "Blockchain"
+        ],
+        "technologies": [
+          "Food Waste"
+        ]
+      },
+      {
+        "company": "UnleashHacks Morroco",
+        "title": "2nd Place",
+        "years": "2024",
+        "mainTech": [
+          "AI"
+        ],
+        "technologies": [
+          "Water Scarcity"
+        ]
+      }
+      
     ]
   }

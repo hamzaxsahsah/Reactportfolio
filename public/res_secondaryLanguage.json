@@ -6,7 +6,8 @@
       "about": "عني",
       "projects": "المشاريع",
       "skills": "المهارات",
-      "experience": "الخبرة"
+      "experience": "الخبرة",
+      "prizes": "الجوائز"
     }
   },
   "projects": [
@@ -103,7 +104,52 @@
           "name": "Lua"
         }
       ]
+    },{
+      "title": "أداة تنزيل فيديوهات يوتيوب بالجملة",
+      "startDate": "2024",
+      "description": "لقد قمت بإنشاء أداة لتنزيل فيديوهات يوتيوب بالجملة",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_4N37TIgWC_QLpspNwGddZH8DhzljeYMFnA&s"
+      ],
+      "url": "https://github.com/hamzaxsahsah/MassYoutubeDownloader",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "بايثون"
+        }
+      ]
+    },
+    {
+      "title": "بلوكتشين محلي باستخدام جولانج",
+      "startDate": "2024",
+      "description": "لقد قمت بإنشاء خدمة بلوكتشين محلية",
+      "images": [
+        "https://www.chainalysis.com/wp-content/uploads/2022/02/bloggraphic-blockchains-01-1-1500x818.png"
+      ],
+      "url": "https://github.com/hamzaxsahsah/Golangblockchain",
+      "technologies": [
+        {
+          "class": "devicon-go-plain",
+          "name": "جولانج"
+        }
+      ]
+    },
+    {
+      "title": "تطبيق مترجم Odoo I18N مع @Mohamed-Moumni",
+      "startDate": "2024",
+      "description": "مترجم ملفات i18n لـ Odoo",
+      "images": [
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Odoo_logo.svg/2560px-Odoo_logo.svg.png"
+      ],
+      "url": "http://hamzasahsah.pythonanywhere.com/",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "بايثون"
+        }
+      ]
     }
+    
   ],
   "experience": [
     {
@@ -164,5 +210,29 @@
         "Javascript"
       ]
     }
+  ],
+  "Prizes": [
+    {
+      "company": "Africathon",
+      "title": "المركز الأول",
+      "years": "2022",
+      "mainTech": [
+        "بلوك تشين"
+      ],
+      "technologies": [
+        "إهدار الطعام"
+      ]
+    },
+    {
+      "company": "UnleashHacks Morocco",
+      "title": "المركز الثاني",
+      "years": "2024",
+      "mainTech": [
+        "الذكاء الاصطناعي"
+      ],
+      "technologies": [
+        "ندرة المياه"
+      ]
+    }
   ]
-  }
+}
